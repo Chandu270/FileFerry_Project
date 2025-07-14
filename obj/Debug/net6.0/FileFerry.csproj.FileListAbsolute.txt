@@ -42,3 +42,4 @@
 /Users/chandu/Documents/FileFerry/DotNetCore6/📦 Download FileFerry_net6_proper/obj/Debug/net6.0/FileFerry.pdb
 /Users/chandu/Documents/FileFerry/DotNetCore6/📦 Download FileFerry_net6_proper/obj/Debug/net6.0/FileFerry.genruntimeconfig.cache
 /Users/chandu/Documents/FileFerry/DotNetCore6/📦 Download FileFerry_net6_proper/obj/Debug/net6.0/ref/FileFerry.dll
+/Users/chandu/Documents/FileFerry/DotNetCore6/📦 Download FileFerry_net6_proper/obj/Debug/net6.0/FileFerry.sourcelink.json
