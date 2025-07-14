@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileFerry", "FileFerry.csproj", "{A24E2218-D46E-24A9-ECBB-E0A5384CA498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A24E2218-D46E-24A9-ECBB-E0A5384CA498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24E2218-D46E-24A9-ECBB-E0A5384CA498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24E2218-D46E-24A9-ECBB-E0A5384CA498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24E2218-D46E-24A9-ECBB-E0A5384CA498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9F87661-7837-428C-AB5A-E6055E802AA8}
+	EndGlobalSection
+EndGlobal
