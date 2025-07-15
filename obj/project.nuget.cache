@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xjwmM22vnME=",
+  "dgSpecHash": "w2YTfVdOs1w=",
   "success": true,
-  "projectFilePath": "/Users/chandu/Documents/FileFerry/DotNetCore6/\uD83D\uDCE6 Download FileFerry_net6_proper/FileFerry.csproj",
+  "projectFilePath": "/Users/chandu/Documents/FileFerry/DotNetCore6/FileFerry/FileFerry.csproj",
   "expectedPackageFiles": [
     "/Users/chandu/.nuget/packages/microsoft.extensions.configuration/6.0.0/microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "/Users/chandu/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

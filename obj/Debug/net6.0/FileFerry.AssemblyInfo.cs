@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileFerry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ced0734d0614d2bdde8654cc5d6488a6a1f58818")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dea48c516c1dd36adb53cffd6c65fe024882971")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileFerry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileFerry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chandu/Documents/FileFerry/DotNetCore6/📦 Download FileFerry_net6_proper/FileFerry.csproj": {}
+    "/Users/chandu/Documents/FileFerry/DotNetCore6/FileFerry/FileFerry.csproj": {}
   },
   "projects": {
-    "/Users/chandu/Documents/FileFerry/DotNetCore6/📦 Download FileFerry_net6_proper/FileFerry.csproj": {
+    "/Users/chandu/Documents/FileFerry/DotNetCore6/FileFerry/FileFerry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chandu/Documents/FileFerry/DotNetCore6/📦 Download FileFerry_net6_proper/FileFerry.csproj",
+        "projectUniqueName": "/Users/chandu/Documents/FileFerry/DotNetCore6/FileFerry/FileFerry.csproj",
         "projectName": "FileFerry",
-        "projectPath": "/Users/chandu/Documents/FileFerry/DotNetCore6/📦 Download FileFerry_net6_proper/FileFerry.csproj",
+        "projectPath": "/Users/chandu/Documents/FileFerry/DotNetCore6/FileFerry/FileFerry.csproj",
         "packagesPath": "/Users/chandu/.nuget/packages/",
-        "outputPath": "/Users/chandu/Documents/FileFerry/DotNetCore6/📦 Download FileFerry_net6_proper/obj/",
+        "outputPath": "/Users/chandu/Documents/FileFerry/DotNetCore6/FileFerry/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chandu/.nuget/NuGet/NuGet.Config"
