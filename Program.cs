@@ -24,16 +24,37 @@ var archivePath = configRoot["Paths:Archive"];
 var destinationPath = configRoot["Paths:Destination"];
 var fileName = Path.GetFileName(sourcePath);
 
-var workflow = new List<FileCommand>
+var watcher = new FileSystemWatcher
 {
-    new FileCommand(sourcePath, Path.Combine(archivePath, fileName), FileOperation.Copy),
-    new FileCommand(Path.Combine(archivePath, fileName), Path.Combine(destinationPath, fileName), FileOperation.Move),
-    new FileCommand(sourcePath, "", FileOperation.Delete)
+    Path = sourcePath,
+    Filter = "*.*",
+    EnableRaisingEvents = true,
+    NotifyFilter = NotifyFilters.FileName | NotifyFilters.CreationTime
 };
 
-foreach (var command in workflow)
+watcher.Created += (s, e) =>
 {
-    command.Execute(logger);
-}
+    try
+    {
+        logger.LogInformation($"New file detected: {e.FullPath}");
+        var fileName = Path.GetFileName(e.FullPath);
+
+        var workflow = new List<FileCommand>
+        {
+            new FileCommand(e.FullPath, Path.Combine(archivePath, fileName), FileOperation.Copy),
+            new FileCommand(Path.Combine(archivePath, fileName), Path.Combine(destinationPath, fileName), FileOperation.Move),
+            new FileCommand(e.FullPath, "", FileOperation.Delete)
+        };
+
+        foreach (var command in workflow)
+        {
+            command.Execute(logger);
+        }
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "Error processing file event.");
+    }
+};
 
 logger.LogInformation("FileFerry workflow completed.");
